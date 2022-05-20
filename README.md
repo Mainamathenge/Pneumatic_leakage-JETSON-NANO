@@ -29,7 +29,7 @@ def main():
 I deployed the model in an assembly line for assembling Directional Control valves
 ![PHYSICAL DEPLOYMENT](https://github.com/Mainamathenge/Pneumatic_leakage-JETSON-NANO/blob/main/project%20images/WhatsApp%20Image%202022-05-20%20at%2012.44.52%20PM.jpeg)
 The output could be seen as 
-![Disply output](https://github.com/Mainamathenge/Pneumatic_leakage-JETSON-NANO/tree/main/project%20images)
+![Disply output](https://github.com/Mainamathenge/Pneumatic_leakage-JETSON-NANO/blob/main/project%20images/deployment.PNG)
 ## TWILIO
 For user notification  I used [twilio API](https://www.twilio.com/) and used as shown in the [twilio python file](https://github.com/Mainamathenge/Pneumatic_leakage-JETSON-NANO/blob/main/pneumatic%20cylinder/pneumatic%20leakage/twilio_sms.py)
 
