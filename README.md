@@ -1,5 +1,3 @@
 # Pneumatic_leakage-JETSON-NANO
-This repository contains data,code,model for the project
-the model was created using edge impulse and downloaded to the jetson nano 
-the Main.py file show how the model is used to detect leakges in cylinders and the twilio_sms file is used to send sms notifications
-enjoy
+This project uses Artificial inteligence to detect leakages in a pneumatic cylinder the model was created with data collected from a microphone and was used to train the model and the model was later deployed on the jetson nano.
+
