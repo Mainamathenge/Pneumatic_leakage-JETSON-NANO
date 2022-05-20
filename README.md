@@ -10,13 +10,22 @@ The data was classified into labels
 * CYLINDER_LEAKAGE  (pneumatic cylinder running without leakages)
 * IDLE              (pneumatic cylinder not running)
 ## MODEL CREATION.
-Before the traing the features in the data was extracted using audio MFE block that extracted the frequency and time data from the audio data that was being used in the project.
-The model was ceated using Tensor flow and Keras with 
+Before the traing the features in the data was [extracted](https://github.com/Mainamathenge/Pneumatic_leakage-JETSON-NANO/tree/main/pneumatic%20cylinder/pneumatic%20leakage) using audio MFE block that extracted the frequency and time data from the audio data that was being used in the project.
+The model was ceated using [Tensor flow and Keras](https://github.com/Mainamathenge/Pneumatic_leakage-JETSON-NANO/tree/main/pneumatic%20cylinder/pneumatic%20leakage) with 
  * input layer with (3960)features 
  * Dropout (rate 0.25)
  * 1D conv / pool layer (16 neurons, 3 kernel size, 1 layer)
  * Flatten layer
  * Output layer (3 classes)
+## MODEL DEPLOYMENT,
+After the model was trained and created I saved the model localy in my Jetson nano and then used run it locally using the [main.py](https://github.com/Mainamathenge/Pneumatic_leakage-JETSON-NANO/blob/main/pneumatic%20cylinder/pneumatic%20leakage/Main.py)
+In the main.py file should be modified by
+~~~ python
+def main():
+    count = 0
+    dir_path = os.path.dirname('models location')
+    modelfile = os.path.join(dir_path, 'model name')
+~~~
 
 
  
