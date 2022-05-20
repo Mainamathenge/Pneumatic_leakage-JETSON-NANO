@@ -39,7 +39,7 @@ sid = '#######'
 token = '########'
 ~~~
 and to create a custom message and the message receiver.
-~~~
+~~~ python
  client.messages.create(messaging_service_sid = '#####',
                                body = message,
                                to = ['##########'])
