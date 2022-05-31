@@ -12,11 +12,13 @@ The dataset had 3 classes:
 * CYLINDER_NORMAL   (pneumatic cylinder running without leakages)
 * CYLINDER_LEAKAGE  (pneumatic cylinder running without leakages)
 * IDLE              (pneumatic cylinder not running)
-
-## MODEL TRAINING.
-The model was trained using Edge Impulse and used [audio MFE](https://github.com/Mainamathenge/Pneumatic_leakage-JETSON-NANO/tree/main/pneumatic%20cylinder/pneumatic%20leakage) as its input. This was used to preprocesss and extract meaningful features from the raw audio samples.
-
 ### Audio MFE
+Audio MFE processing block extracts time and frequency features from a signal. However it uses a non-linear scale in the frequency domain, called Mel-scale. It performs well on audio data, mostly for non-voice recognition use cases when sounds to be classified can be distinguished by human ear.
+The Audio MFE is used to generate features in the data in the time and frequency data from the data as shown graphically.
+![FEATURE EXTRACTION].(https://github.com/Mainamathenge/Pneumatic_leakage-JETSON-NANO/blob/main/project%20images/mfe.PNG)
+## MODEL TRAINING.
+The model was trained using model was trained using Tensor flow and Keras as show in the [TRAING MODEL](https://github.com/Mainamathenge/Pneumatic_leakage-JETSON-NANO/blob/main/pneumatic%20cylinder/pneumatic%20leakage/model%20training.py)
+
 ### Model Architecture
 The model was based on a CNN architecture as shown below:
 ```
