@@ -55,8 +55,9 @@ _________________________________________________________________
 ### Model validation
 
 Below confussion matrix shows the model perfomance after training:
-The confusion matrix showed how the model could collectly predict the imcidences in a cylinder.
-![CONFUSION MTATRIX](https://github.com/Mainamathenge/Pneumatic_leakage-JETSON-NANO/blob/main/project%20images/confusion%20matrix.PNG)
+The confusion matrix showed how the model could collectly predict the diffrent classes of features that were used in training the dataset.
+
+![CONFUSION MATRIX](https://github.com/Mainamathenge/Pneumatic_leakage-JETSON-NANO/blob/main/project%20images/confusion%20matrix.PNG)
 
 
 ## MODEL DEPLOYMENT,
