@@ -1,3 +1,5 @@
 HostName=intelligentVideo.azure-devices.net;DeviceId=jetson-nano-2gb;SharedAccessKey=r6uqsYR1KpjR5V9lmK+WmppEdms2F3mezTBNVrIn5Q8=
 
 HostName=jetsonVideoAnalytics.azure-devices.net;DeviceId=jetson-nano-2gb;SharedAccessKey=sRZdtrzqvbwL+tzCfj3MyIjVv/yEU0kaxkFw4SeMnO8=
+
+HostName=deepstream.azure-devices.net;DeviceId=jetson-deep5.0;SharedAccessKey=zw3JCWXMxnCPGaNfKtB6aUtL3TWwruwkLeFd2RIdkyw=
